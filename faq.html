@@ -1,1 +1,90 @@
-PLACEHOLDER
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FAQ - Pertanyaan Umum Layanan IT | Limpad.id</title>
+  <meta name="description" content="Jawaban atas pertanyaan umum tentang pengadaan IT, garansi, SLA maintenance, software custom, dan sewa perangkat di CV. Limpad Karya Abadi.">
+  <link rel="canonical" href="https://www.limpad.id/faq">
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header class="header">
+    <div class="container header-inner">
+      <a href="index.html" class="logo">Limpad<span>.id</span></a>
+      <nav class="nav" id="nav">
+        <a href="index.html">Beranda</a>
+        <a href="services.html">Layanan</a>
+        <a href="about.html">Tentang Kami</a>
+        <a href="faq.html" class="active">FAQ</a>
+        <a href="contact.html">Kontak</a>
+        <a href="contact.html#rfq" class="btn btn-primary" style="padding: 10px 18px; font-size: 0.9rem;">Minta Penawaran Harga</a>
+      </nav>
+      <button class="mobile-toggle" id="menuBtn" aria-label="Menu"><span></span><span></span><span></span></button>
+    </div>
+  </header>
+  <section class="hero hero-sm">
+    <div class="container">
+      <span class="badge">Knowledge Base</span>
+      <h1>Pertanyaan yang Sering Diajukan</h1>
+      <p>Jawaban singkat seputar prosedur, garansi, SLA, dan layanan kami.</p>
+    </div>
+  </section>
+  <section class="section">
+    <div class="container" style="max-width:760px;">
+      <details class="faq-item" open>
+        <summary>Bagaimana prosedur pengajuan penawaran harga (RFQ) pengadaan IT di CV. Limpad Karya Abadi?</summary>
+        <div class="faq-body">Isi formulir RFQ di halaman Kontak atau chat WhatsApp kami. Tim Account Executive akan menghubungi dalam 1x24 jam kerja.</div>
+      </details>
+      <details class="faq-item">
+        <summary>Apakah produk PC dan laptop yang disediakan bergaransi resmi manufaktur?</summary>
+        <div class="faq-body">Ya. Semua unit pengadaan dijamin bergaransi resmi dari manufaktur, plus dukungan setup awal gratis.</div>
+      </details>
+      <details class="faq-item">
+        <summary>Bagaimana sistem Garansi Layanan (SLA) untuk kontrak pemeliharaan jaringan kantor?</summary>
+        <div class="faq-body">Kami menawarkan kontrak maintenance dengan SLA yang disepakati bersama sesuai skala infrastruktur klien.</div>
+      </details>
+      <details class="faq-item">
+        <summary>Apakah pembuatan software SIM dapat disesuaikan (custom) dengan alur kerja instansi kami?</summary>
+        <div class="faq-body">Ya. Kami mengembangkan SIM Sekolah, SIMRS, dan ERP custom berdasarkan proses bisnis spesifik klien.</div>
+      </details>
+      <details class="faq-item">
+        <summary>Berapa minimal jumlah unit untuk penyewaan laptop/komputer B2B?</summary>
+        <div class="faq-body">Fleksibel — dari beberapa unit untuk event hingga puluhan unit jangka panjang. Hubungi kami untuk ketersediaan.</div>
+      </details>
+      <details class="faq-item">
+        <summary>Apakah bisa mendatangkan teknisi ke lokasi (on-site)?</summary>
+        <div class="faq-body">Bisa. Layanan on-site tersedia untuk wilayah Semarang dan sekitarnya.</div>
+      </details>
+      <details class="faq-item">
+        <summary>Apakah CV. Limpad Karya Abadi siap mengikuti tender B2B / pemerintah?</summary>
+        <div class="faq-body">Ya. Entitas bisnis resmi (CV) dengan kelengkapan dokumen perpajakan dan administrasi.</div>
+      </details>
+    </div>
+  </section>
+  <section class="cta-section">
+    <div class="container" style="text-align:center; max-width:640px;">
+      <h2 style="font-size:1.8rem; font-weight:800; margin-bottom:14px;">Masih Ada Pertanyaan?</h2>
+      <p style="opacity:0.9; margin-bottom:28px;">Tim kami siap membantu.</p>
+      <a href="https://wa.me/6281805950933" class="btn btn-primary" target="_blank" rel="noopener">Chat WhatsApp</a>
+    </div>
+  </section>
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div><h4>CV. Limpad Karya Abadi</h4><p>Mitra Solusi IT & Pengadaan Terpercaya sejak 1998.</p></div>
+        <div><h4>Kontak</h4><p>Jl. Menteri Supeno I Semarang No.34<br>+62 818-0595-0933<br>iqbal@limpad.id</p></div>
+        <div><h4>Jam Operasional</h4><p>Senin–Jumat 09.00–19.00<br>Sabtu–Minggu 09.00–17.00 WIB</p></div>
+        <div><h4>Link</h4><p><a href="index.html">Beranda</a><br><a href="services.html">Layanan</a><br><a href="contact.html">Kontak</a></p></div>
+      </div>
+      <div class="footer-bottom"><span>© 2026 CV. Limpad Karya Abadi</span><span>limpad.id</span></div>
+    </div>
+  </footer>
+  <script>
+    const menuBtn = document.getElementById('menuBtn');
+    const nav = document.getElementById('nav');
+    if (menuBtn) menuBtn.addEventListener('click', () => nav.classList.toggle('open'));
+  </script>
+</body>
+</html>

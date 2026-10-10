@@ -1,20 +1,19 @@
 # limpad.id Website
 
-Corporate website redesign for **CV. Limpad Karya Abadi** (limpad.id) — IT solutions partner since 1998.
+Corporate website redesign for **CV. Limpad Karya Abadi** (limpad.id) — IT solutions since 1998.
 
-## Pages
+## Structure
 - `index.html` — Beranda
-- `services.html` — Layanan (Pengadaan, Jaringan, Software, Sewa)
+- `services.html` — Layanan
 - `about.html` — Tentang Kami
-- `faq.html` — FAQ + Schema FAQPage
-- `contact.html` — Kontak + Form RFQ + Google Maps
-- `styles.css` — Shared design system (Navy + Amber)
+- `faq.html` — FAQ
+- `contact.html` — Kontak + RFQ
+- `styles.css` — Design system
+- `assets/` — WebP + SVG illustrations
 
-## Stack
-Static HTML/CSS, no build step. Ready for GitHub Pages or any static host.
-
-## Local preview
-Open `index.html` in a browser, or:
+## Preview
 ```bash
 npx serve .
 ```
+
+Enable **GitHub Pages**: Settings → Pages → branch `main` / root.
